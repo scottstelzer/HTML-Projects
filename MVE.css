@@ -1,0 +1,80 @@
+body {
+    font-family: 'Antic Slab', sans-serif;
+    background: antiquewhite;
+}
+
+nav {
+    background: #172c49;
+    color: antiquewhite;
+}
+
+h3 {
+    color: antiquewhite;
+}
+
+hr {
+    background: antiquewhite;
+}
+
+#heading {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.topHeader {
+    background: #4f6f9c;
+}
+
+#mveLogo {
+    height: 150px;
+    width: auto;
+}
+
+#mveBuilding {
+    height: 200px;;
+    width: auto;
+}
+
+.alert {
+    background: #f5c050;
+}
+
+.btn-primary {
+    background: #172c49;
+}
+
+.btn-primary:hover {
+    background: #f5c050;
+}
+
+#jumbo1 {
+    background-image: url("https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#jumbo2 {
+    background: #172c49;
+    color: antiquewhite;
+}
+
+#jumbo3 {
+    background: #a5a5a8;
+}
+
+#jumboHr {
+    background: #4f6f9c;
+}
+
+#b1, #b4, #b7 {
+    background: #4f6f9c;
+}
+
+#b2, #b5 {
+    background: #a5a5a8;
+}
+
+#b3, #b6 {
+    background: #f5c050;
+}

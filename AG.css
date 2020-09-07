@@ -1,0 +1,92 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    background: #FAF3F6;
+}
+
+.navbar {
+    background-color: rgb(52,61,70);
+    color: antiquewhite;
+}
+
+.checkMark {
+    color: #6fcb9f;
+}
+
+.textBackground {
+    background: rgba(221,221,221,0.9);
+}
+
+.rowHR {
+    background: rgba(0,177,89,0.9);
+    width: 300px;
+}
+
+.columnB {
+    color: black;
+    background-color: rgba(0,177,89,0.4);
+}
+
+#jumbo1 {
+    background: url("https://images.unsplash.com/photo-1588152850700-c82ecb8ba9b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+#jumboP {
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+}
+
+#jumboH1 {
+    font-weight: 700;
+    color: black;
+}
+
+#jumboB {
+    height: 70px;
+    width: 550px;
+    font-size: 2rem;
+    background-color: rgba(0,177,89,0.3);
+    color: black;
+}
+
+#jumboHR {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+        width: 1100px;
+}
+
+#grazingImg {
+    background: darkgray;
+}
+
+.columnS {
+    margin-left: 33px;
+}
+
+#columnS2 {
+    margin-left: 33px;
+}
+
+.containerBackground {
+    background-color: #e1f7d5;
+}
+
+#rowHeading {
+    font-size: 2.5rem;
+}
+
+#footerP {
+    font-size: 0.7rem;
+}
+
+.columnB:hover {
+    background-color: rgba(0,177,89,0.8);
+}
+
+#jumboB:hover {
+    background-color: rgba(0,177,89,0.8);
+}

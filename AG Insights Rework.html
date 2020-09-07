@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AG Insights</title>
+	<meta charset="UTF-8">
+	<!--Bootstrap CSS-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!--Personal CSS-->
+	<link rel="stylesheet" href="AG.css">
+	<!--Google Font-->
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet"> 
+	<!--Bootstrap Javascript-->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<!--Feather Icon Script-->
+	<script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+	<!--Navbar-->
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img src="https://agriculturalinsights.com/wp-content/uploads/2012/07/header1.png" width="210px" height="40px" alt="AG Insights Logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+
+  			<div class="collapse navbar-collapse" id="navbarContent">
+  				<ul class="navbar-nav ml-auto">
+  					<li class="nav-item">
+  						<a class="nav-link" href="#">Contact Us</a>
+  					</li>
+  					<li class="nav-item ml-3">
+  						<a class="nav-link" href="#">Courses</a>
+  					</li>
+  					<li class="nav-item ml-3">
+  						<a class="nav-link" href="#">Blog</a>
+  					</li>
+  				</ul>
+  				<form class="form-inline my-2 my-lg-0">
+  					<button class="btn btn-outline-success my-2 my-sm-0 ml-3" type="submit">Member Login</button>
+  				</form>
+			</div>
+		</div>
+	</nav>
+
+	<!--Jumbotron-->
+	<div class="jumbotron-fluid mt-3" id="jumbo1">
+		<p class="display-5 text-center" id="jumboP">Free Training:</p>
+		<h1 class="display-4 text-center" id="jumboH1">Learn to grow 100% more forage for your livestock</h1>
+		<hr class="my-4" id="jumboHR">
+		<div class="d-flex justify-content-center">
+			<a class="btn btn-lg mt-4" id="jumboB" href="#" role="button">Sign up for the free training<i class="ml-3" data-feather="arrow-right"></i></a>
+		</div>
+	</div>
+
+	<!--1st Row Heading-->
+	<div class="container d-flex justify-content-center mt-5 mb-2">
+		<h2 class="display-4">Popular Products</h2>
+	</div>
+
+	<!--1st Row-->
+	<div class="container border rounded mt-2">
+		<div class="row">
+			<div class="col-md-4 pl-0">
+				<img class="img-fluid" id="grazingImg" src="https://agriculturalinsights.com/wp-content/uploads/2020/04/grazing-mastery-product-shot.png" alt="Grazing Mastery Picture">
+			</div>
+			<div class="col-md-4 ml-0">
+				<h3 class="dislpay-4 d-flex justify-content-center align-items-center mt-3">Grazing Mastery</h3>
+				<p class="lead d-flex justify-content-center align-items-center mt-3 mb-5">The 100% online Grazing Mastery course will teach you how to maximize forage growth while increase animal health and fertility.</p>
+				<a class="btn btn-lg d-flex justify-content-center columnB">Sign Up</a>
+			</div>
+			<div class="col-md-4">
+				<div class="border-left">
+					<P class="mt-4 ml-2 d-flex justify=content-center mb-4"><i class="mr-2 checkMark" data-feather="check"></i>Works for all enviornments</P>
+					<p class="mb-4 ml-2"><i class="mr-2 checkMark" data-feather="check"></i>Cattle, sheep, horses, goats, pigs, <span class="columnS">chickens</span></p>
+					<p class="ml-2"><i class="mr-2 checkMark" data-feather="check"></i>Master the most profitable activity <span class="columnS">on your farm; managing your <span id="columnS2">animal's grazing.</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--1st Row Heading-->
+	<div class="container d-flex justify-content-center mt-5 mb-2">
+		<h2 class="display-4">Success Stories</h2>
+	</div>
+
+	<!--2nd Row-->
+	<div class="container rounded mt-2 containerBackground">
+		<div class="row">
+			<div class="col-md-4">
+				<img class="image-fluid img-thumbnail mt-4 mb-3" src="https://agriculturalinsights.com/wp-content/uploads/2020/04/rosemary-verasun-hat-rancher-woman.png" alt="Rosemary Vera">
+				<div class="textBackground rounded py-1 px-2">
+					<hr class="rowHR">
+					<blockquote class="blockquote">"It was the best training. I've read Judy, Joel Salatin & I've been Jim Gerrish's grazing school, which wasn't cheap. You've put everything into easy to 
+						understand English. Thank You!"</blockquote>
+					<hr class="rowHR">
+					<footer class="blockquote-footer">Rosemary Vera</footer>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<img class="img-fluid img-thumbnail mt-4 mb-3" src="https://agriculturalinsights.com/wp-content/uploads/2020/04/sam-washington.png" alt="Sam Washington">
+				<div class="textBackground rounded py-1 px-2 mb-4">
+					<hr class="rowHR">
+					<blockquote class="blockquote">“Chris, the course is very informative for beginners and experienced ranchers and those familiar with rotational and mob grazing and electric fence systems. 
+						I am always looking for what works for other grazers in the way of designs and products. I have to tell you, you taught an old dog a new trick- ph testing for protein/energy balance. 
+						Best new tip I've seen this year. Brilliant! Keep up the good work.”</blockquote>
+						<hr class="rowHR">
+						<footer class="blockquote-footer">Sam Washington</footer>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<img class="img-fluid img-thumbnail mt-4 mb-3" src="https://agriculturalinsights.com/wp-content/uploads/2020/04/martin-harris-testimonial.png" alt="Martin Harris">
+				<div class="textBackground rounded py-1 px-2">
+					<hr class="rowHR">
+					<blockquote class="blockquote">“I have yet to attend a conference, event or training with the quality of the Grazing Mastery program. I’ll be a member for life! Thank you.”</blockquote>
+					<hr class="rowHR">
+					<footer class="blockquote-footer">Martin Harris</footer>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Video Jumbotron-->
+	<div class="container text-center d-flex justify-content-center mt-5">
+		<div class="jumbotron">
+			<h1 class="display-4 text-center">David Jones</h1>
+			<hr class="my-4 rowHR">
+			<video class="" controls="controls">
+				<source src="https://media.istockphoto.com/videos/rider-in-a-yellow-whitewater-kayak-dropping-a-waterfall-video-id994594020">
+			</video>
+		</div>
+	</div>
+
+	<!--3rd Row-->
+	<div class="container-fluid rounded containerBackground">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="jumbotron jumbotron-fluid containerBackground">
+					<div class="container">
+						<h1 class="display-2">Hi</h1>
+						<h2 class="display-4">I'm Chris Stelzer</h2>
+						<p class="lead">After starting my own ranch in 2010, I soon found myself broke with no land, no livestock and no customers.</p>
+						<p class="lead">I realized that I didn't have all the tools and skills needed to successfully produce and sell my farm/ranch products.</p>
+						<p class="lead">Starting in 2011 I did a year of internships with the world's best grazing managers and those who were wildly successful selling their 
+							farm products directly to consumers. I've worked for Greg Judy, The James Ranch and Ian Mitchell-Innes in South Africa.</p>
+						<p class="lead">Since then I've created several courses that show you how to grow 100% more forage for your livestock (Grazing Mastery Program), and how to 
+							skyrocket the growth of your farm/ranch sales (Farm Marketing Mastery).</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 d-flex align-items-center justify-content-center">
+				<img class="img-fluid rounded" src="https://agriculturalinsights.com/wp-content/uploads/2020/04/chris-africa-ever-webinar-500-500.png">
+			</div>
+		</div>
+	</div>
+
+	<!--Last Row Heading-->
+	<div class="container mt-5"">
+		<h2 class="display-5" id="rowHeading">Join our free online grazing management training</h2>
+	</div>
+
+	<!--Last Row-->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 mb-5 rounded d-flex justify-content-center align-items-center flex-column containerBackground">
+				<p class="lead mb-5 text-center">Simply click on the button below, enter your first name & email address</p>
+				<a class="btn btn-lg columnB">Sign up for the free training</a>
+			</div>
+			<div class="col-md-6">
+				<img class="img-fluid rounded" src="https://agriculturalinsights.com/wp-content/uploads/2020/04/grazing-mastery-laptop-ag-insights-home-page.jpg" alt="Agricultural Insights Image">
+			</div>
+		</div>
+	</div>
+
+	<!--Footer-->
+	<div>
+		<p class="lead d-flex justify-content-center mt-5" id="footerP">Copyright &copy 2020 BIOMI LLC, DBA Agricultural Insights - 2601 S Lemay Ste 7-221 Fort Collins, CO 80525 | Support@agriculturalinsights.com | (970) 599-1193</p>
+	</div>
+
+	<script>
+		feather.replace()
+	  </script>
+</body>
+</html>
